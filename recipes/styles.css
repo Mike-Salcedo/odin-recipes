@@ -1,0 +1,59 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: hsl(34, 78%, 91%);
+}
+
+img {
+  width: 40vh;
+  height: auto;
+  border-radius: 10vh;
+}
+
+/* Note: Ul's have default margin and padding you always need to deal with */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+  margin-bottom: 1vh;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(23, 76, 83);
+  font-size: 3vh;
+}
+
+div.content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+div.description {
+  width: 40vh;
+  height: auto;
+  margin-top: 2vh;
+  text-align: center;
+  
+}
+
+div.ingredients {
+  height: auto;
+  width: 70vh;
+  margin: 2%;
+
+
+}
+
+div.steps {
+  height: auto;
+  width: 70vh;
+  
+}
